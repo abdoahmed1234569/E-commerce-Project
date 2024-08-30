@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row {
+    @apply flex flex-wrap px-4 justify-center
+}
+
+.btn {
+    @apply rounded-lg text-white bg-green-600 px-4 py-2 w-full
+}
+.mainImg {
+    height: 400px;
+}
+.secondImg {
+    height: 200px;
+}
+.image {
+    width: 100% !important;
+    height: 200px !important;
+}
